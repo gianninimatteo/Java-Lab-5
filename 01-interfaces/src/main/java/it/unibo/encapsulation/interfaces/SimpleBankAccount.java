@@ -41,7 +41,7 @@ public class SimpleBankAccount implements BankAccount {
         return this.transactions;
     }
 
-// account.deposit(1, 500)
+ // account.deposit(1, 500)
 
     public void deposit(final int id, final double amount) { // amount: importo (operazione)
         /*
