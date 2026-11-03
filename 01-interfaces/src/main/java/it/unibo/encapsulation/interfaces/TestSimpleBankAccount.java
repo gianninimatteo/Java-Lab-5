@@ -35,7 +35,14 @@ public class TestSimpleBankAccount {
         System.out.println("Conto 2: " + conto2.getBalance());
 
         // 6) Provare a prelevare fornendo un id utente sbagliato
+        conto1.withdraw(3,10);
+        System.out.println("\nConto 1: " + conto1.getBalance()); // Essendo l'id sbagliato, il conto non viene toccato.
 
-        // 7) Controllare nuovamente l'ammontare
+        // 7) Controllare nuovamente l'ammontare. I conti sono rimasti invariati.
+        System.out.println("\nConto 1: " + conto1.getBalance());
+        System.out.println("Conto 2: " + conto2.getBalance());
+
+        System.out.println("\nIntestatario 1: " + intestatario1);
+        System.out.println("Intestatario 2: " + intestatario2);
     }
 }
