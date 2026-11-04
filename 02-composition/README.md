@@ -12,7 +12,7 @@
     - Un solo costruttore che richieda i dati necessari ad inizializzare la classe
     - Metodi:
         * `public void replaceCourse(String, int)`: sostituisce il corso all'indice `index` con quello fornito in input
-        * `public void replaceAllCourses(String[])`: sostituisce tutti i corsi tenuti dal docente
+        * `public void replaceAllCourses(String[])`:
 * Si implementi la classe `Exam`, che modella un generico appello d'esame.
     - Campi:
         * `int id`
