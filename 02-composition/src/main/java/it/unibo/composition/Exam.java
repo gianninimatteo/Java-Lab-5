@@ -67,15 +67,15 @@ public class Exam {
     }
 
     public String toString() {
-        return "Exam ["
-            + "id=" + this.id
+        return "Exam [\n"
+            + "  id=" + this.id
             + ", maxStudents=" + this.maxStudents
             + ", registeredStudents=" + this.registeredStudents
             + ", courseName=" + this.courseName
             + ", professor=" + this.professor
             + ", room=" + this.room
             + ", students=" + Arrays.toString(students)
-            + "]";
+            + "\n]";
     }
 
 }
